@@ -1,5 +1,5 @@
 class Char:
-    def __init__(self, index, char, sound, meaning, explain):
+    def __init__(self, index, char, sound, meaning, explain=''):
         self.index = index
         self.char = char
         self.sound = sound
