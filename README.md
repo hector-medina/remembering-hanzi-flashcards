@@ -16,7 +16,7 @@ You might want to customize your flashcards for another language or for other pu
 
 To create your own flashcards you have to follow the next steps:
 
-1. **Download this repository**.
+**1. Download this repository**.
 
 You can download this repository by clicking on the icon **code** in the top sidebar, and then **Download ZIP**
 
@@ -26,7 +26,7 @@ If you are familiar with developer tools, you can also clone this repository by 
 git clone https://github.com/hector-medina/remembering-hanzi-flashcards.git
 ```
 
-2. **Activate virtual environment.**
+**2. Activate virtual environment.**
 
 Once downloaded, you have to open your terminal and go inside the folder you've just downloded:
 
@@ -38,7 +38,7 @@ Once here, if you are in MacOS run:
 source env/bin/activate
 ```
 
-3. **Override the data.**
+**3. Override the data.**
 
 Open up the data.py file in an IDE or notebook. This is the data that the program will use to build the flashcards.
 
@@ -61,7 +61,7 @@ data = [
 - sound = This is the pronunciation of the character.
 - explain = This is the explanation of the character.
 
-4. **Run the pdf maker script.**
+**4. Run the pdf maker script.**
 
 To run the script you have to use the following command:
 
@@ -69,6 +69,6 @@ To run the script you have to use the following command:
 python3 pdf.py
 ```
 
-5. **Print your custom flashcards.**
+**5. Print your custom flashcards.**
 
 Hiuhuu!! You're flashcards are ready, waiting for you to print them. You just have to open up the "Hanzi para recordar.pdf" that has been created after running the command in step 4.
