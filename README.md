@@ -40,7 +40,7 @@ source env/bin/activate
 
 **3. Override the data.**
 
-Open up the data.py file in an IDE or notebook. This is the data that the program will use to build the flashcards.
+Open up the **data.py** file in an IDE or notebook. This is the data that the program will use to build the flashcards.
 
 Every card is an instance of a class called 'Char'. You just have to replace this data with your own data, but you have to take into account the data structure. To build a new flashcard you have to use the following sintax:
 
